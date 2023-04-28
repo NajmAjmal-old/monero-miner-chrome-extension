@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "XMR WEB MINER",
+  "version": "1.0",
+  "description": "Mines XMR whilst browsing the web",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["mine.js"]
+  }]
+}
