@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Mines XMR whilst browsing the web",
   "icons": {
-    "128": "icon.png"
+    "128": "icon-xmr.png"
   },
   "background": {
     "service_worker": "background.js"
