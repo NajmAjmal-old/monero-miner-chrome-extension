@@ -6,9 +6,6 @@
   "icons": {
     "128": "icon-xmr.png"
   },
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["mine.js"]
